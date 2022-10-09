@@ -8,7 +8,7 @@ namespace mf_apis_web_services_fuel_manager.Models {
         [Key]
         public int Id { get; set; }
         [Required]
-        public string Descrdicao { get; set; }
+        public string Descricao { get; set; }
         [Required]
         public DateTime Data { get; set; }
         [Required]
@@ -17,7 +17,7 @@ namespace mf_apis_web_services_fuel_manager.Models {
         [Required]
         public TipoCombustivel Tipo { get; set; }
         [Required]
-        public int VeiculosId { get; set; }
+        public int VeiculoId { get; set; }
         public Veiculo Veiculo { get; set; }
     }
 
